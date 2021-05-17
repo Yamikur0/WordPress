@@ -1,1 +1,137 @@
-24px}body[dir] .b_imagePair .cico+.b_footnote,body[dir] img+.b_footnote{padding-top:2px;padding-bottom:0}body[dir] .b_hList{padding-bottom:12px}select,input[type="text"]{height:38px;border-style:solid;border-radius:2px}body[dir] select,body[dir] input[type="text"]{margin:0 0 16px 0;padding:0 11px;border-width:1px}input[type="text"]{-webkit-appearance:none;max-width:100%;min-width:50px}select::-ms-expand{display:none}select{height:40px;vertical-align:middle;border:1px solid #ddd}body[dir='ltr'] select{padding:0 0 0 11px}body[dir='rtl'] select{padding:0 11px 0 0}body[dir] h2,body[dir] .b_focusLabel{padding-bottom:4px}body[dir] h4,body[dir] label,body[dir] .b_attribution,body[dir] .b_groupLabel,body[dir] .b_label,body[dir] .b_poiPair,body[dir] .b_secondaryFocus,body[dir] .b_sSpace,body[dir] .b_focusTextExtraSmall,body[dir] .b_focusTextSmall,body[dir] .b_focusTextMedium,body[dir] .b_focusTextLarge{padding-bottom:2px}h2 a,h3 a,h4 a,h5 a,.b_rs a,label{display:block}.inline label{display:inline}#sp_requery a{display:inline-block}body[dir] .b_lBMargin,body[dir] h2.b_entityTitle{padding-bottom:12px}body[dir] .b_entitySubTitle{margin-top:-8px}body[dir] .b_rich{padding:8px 0 24px}body[dir] .b_rich>*:last-child,body[dir] .b_caption>*:last-child{padding-bottom:0;margin-bottom:0}body[dir] .b_caption{padding-bottom:24px}.b_factrow{display:-webkit-box;-webkit-box-orient:vertical}.b_attribution{width:100%}.b_attribution,.b_factrow,.b_1linetrunc{overflow:hidden;text-overflow:ellipsis}body[dir] .b_factrow{padding-bottom:2px}.b_dataList>li>*,.b_imagePair .b_attribution>*,.b_factrow>*{display:inline}body[dir='ltr'] .b_anno{padding:0 8px 24px 0}body[dir='rtl'] .b_anno{padding:0 0 24px 8px}body[dir] .b_anno+.b_rich,body[dir] .b_anno+h2+.b_rich{padding-top:0}body[dir] .b_vPanel>div,body[dir] .b_vList>li{padding-bottom:12px}body[dir] .b_vPanel.b_loose>div,body[dir] .b_vList.b_loose>li{padding-bottom:24px}body[dir] .b_vPanel.b_narrow>div,body[dir] .b_vList.b_narrow>li{padding-bottom:4px}#b_results>li.si_pp,.sb_hbop,.b_hide,#fRmsDefer,#b_error,#b_loadingmsg,.sw_prev,.sw_next{display:none}body[dir] .b_rich>*:last-child,body[dir] .b_rich>.b_vList>li:last-child,body[dir] .b_rich>.b_vPanel>div:last-child,body[dir] .b_vPanel .b_vList>li:last-child,body[dir] .b_vList .b_vPanel>div:last-child,body[dir] .b_hList .b_vList>li:last-child,body[dir] .b_hList .b_vPanel>div:last-child,body[dir] .b_vList>li>*:last-child:not(a),body[dir] .b_vList:last-child>li:last-child,body[dir] .b_vPanel>div>*:last-child:not(a),body[dir] .b_subModule>*:last-child,body[dir] .b_subModule .b_vPanel>*:last-child,body[dir] .b_subModule>.b_vList:last-child>*:last-child,body[dir] .b_suppModule>*:last-child,body[dir] .b_suppModule .b_vPanel>*:last-child,body[dir] .b_infocardContent>.b_vList:last-child>*:last-child,body[dir] .b_infocardContent>*:last-child,body[dir] .sa_uc>.b_vList>li:last-child,body[dir] .sa_uc>.b_vList>li:last-child>.b_vList:last-child>li:last-child,body[dir] .b_ans>.b_vList>li:last-child,body[dir] .b_vlist2col li:last-child,body[dir] .b_ans>*:last-child,body[dir] .b_algo>*:last-child,body[dir] .b_corActList:last-child{padding-bottom:0}.b_vlist2col>ul{min-width:40%;display:inline-block;word-wrap:break-word;vertical-align:top}body[dir] .b_vlist2col>ul{padding-bottom:12px}body[dir='ltr'] .b_vlist2col>ul:first-child{padding-right:28px}body[dir='rtl'] .b_vlist2col>ul:first-child{padding-left:28px}body[dir] .b_vlist2col:last-child{margin-bottom:-12px}body[dir] .b_vlist2col li{padding-bottom:12px}body[dir='ltr'] .b_hPanel>span:not(:last-child),body[dir='ltr'] .b_hList>li:not(:last-child){padding-right:12px}body[dir='rtl'] .b_hPanel>span:not(:last-child),body[dir='rtl'] .b_hList>li:not(:last-child){padding-left:12px}body[dir='ltr'] .b_hPanel.b_loose>span:not(:last-child),body[dir='ltr'] .b_hList.b_loose>li:not(:last-child){padding-right:24px}body[dir='rtl'] .b_hPanel.b_loose>span:not(:last-child),body[dir='rtl'] .b_hList.b_loose>li:not(:last-child){padding-left:24px}body[dir='ltr'] .b_hPanel.b_narrow>span:not(:last-child),body[dir='ltr'] .b_hList.b_narrow>li:not(:last-child){padding-right:4px}body[dir='rtl'] .b_hPanel.b_narrow>span:not(:last-child),body[dir='rtl'] .b_hList.b_narrow>li:not(:last-child){padding-left:4px}.b_h
+<?php
+/**
+ * Multisite delete site panel.
+ *
+ * @package WordPress
+ * @subpackage Multisite
+ * @since 3.0.0
+ */
+
+require_once __DIR__ . '/admin.php';
+
+if ( ! is_multisite() ) {
+	wp_die( __( 'Multisite support is not enabled.' ) );
+}
+
+if ( ! current_user_can( 'delete_site' ) ) {
+	wp_die( __( 'Sorry, you are not allowed to delete this site.' ) );
+}
+
+if ( isset( $_GET['h'] ) && '' !== $_GET['h'] && false !== get_option( 'delete_blog_hash' ) ) {
+	if ( hash_equals( get_option( 'delete_blog_hash' ), $_GET['h'] ) ) {
+		wpmu_delete_blog( get_current_blog_id() );
+		wp_die(
+			sprintf(
+				/* translators: %s: Network title. */
+				__( 'Thank you for using %s, your site has been deleted. Happy trails to you until we meet again.' ),
+				get_network()->site_name
+			)
+		);
+	} else {
+		wp_die( __( 'Sorry, the link you clicked is stale. Please select another option.' ) );
+	}
+}
+
+$blog = get_site();
+$user = wp_get_current_user();
+
+$title       = __( 'Delete Site' );
+$parent_file = 'tools.php';
+require_once ABSPATH . 'wp-admin/admin-header.php';
+
+echo '<div class="wrap">';
+echo '<h1>' . esc_html( $title ) . '</h1>';
+
+if ( isset( $_POST['action'] ) && 'deleteblog' === $_POST['action'] && isset( $_POST['confirmdelete'] ) && '1' === $_POST['confirmdelete'] ) {
+	check_admin_referer( 'delete-blog' );
+
+	$hash = wp_generate_password( 20, false );
+	update_option( 'delete_blog_hash', $hash );
+
+	$url_delete = esc_url( admin_url( 'ms-delete-site.php?h=' . $hash ) );
+
+	$switched_locale = switch_to_locale( get_locale() );
+
+	/* translators: Do not translate USERNAME, URL_DELETE, SITENAME, SITEURL: those are placeholders. */
+	$content = __(
+		"Howdy ###USERNAME###,
+
+You recently clicked the 'Delete Site' link on your site and filled in a
+form on that page.
+
+If you really want to delete your site, click the link below. You will not
+be asked to confirm again so only click this link if you are absolutely certain:
+###URL_DELETE###
+
+If you delete your site, please consider opening a new site here
+some time in the future! (But remember your current site and username
+are gone forever.)
+
+Thanks for using the site,
+All at ###SITENAME###
+###SITEURL###"
+	);
+	/**
+	 * Filters the text for the email sent to the site admin when a request to delete a site in a Multisite network is submitted.
+	 *
+	 * @since 3.0.0
+	 *
+	 * @param string $content The email text.
+	 */
+	$content = apply_filters( 'delete_site_email_content', $content );
+
+	$content = str_replace( '###USERNAME###', $user->user_login, $content );
+	$content = str_replace( '###URL_DELETE###', $url_delete, $content );
+	$content = str_replace( '###SITENAME###', get_network()->site_name, $content );
+	$content = str_replace( '###SITEURL###', network_home_url(), $content );
+
+	wp_mail(
+		get_option( 'admin_email' ),
+		sprintf(
+			/* translators: %s: Site title. */
+			__( '[%s] Delete My Site' ),
+			wp_specialchars_decode( get_option( 'blogname' ) )
+		),
+		$content
+	);
+
+	if ( $switched_locale ) {
+		restore_previous_locale();
+	}
+	?>
+
+	<p><?php _e( 'Thank you. Please check your email for a link to confirm your action. Your site will not be deleted until this link is clicked.' ); ?></p>
+
+	<?php
+} else {
+	?>
+	<p>
+	<?php
+		printf(
+			/* translators: %s: Network title. */
+			__( 'If you do not want to use your %s site any more, you can delete it using the form below. When you click <strong>Delete My Site Permanently</strong> you will be sent an email with a link in it. Click on this link to delete your site.' ),
+			get_network()->site_name
+		);
+	?>
+	</p>
+	<p><?php _e( 'Remember, once deleted your site cannot be restored.' ); ?></p>
+
+	<form method="post" name="deletedirect">
+		<?php wp_nonce_field( 'delete-blog' ); ?>
+		<input type="hidden" name="action" value="deleteblog" />
+		<p><input id="confirmdelete" type="checkbox" name="confirmdelete" value="1" /> <label for="confirmdelete"><strong>
+		<?php
+			printf(
+				/* translators: %s: Site address. */
+				__( "I'm sure I want to permanently delete my site, and I am aware I can never get it back or use %s again." ),
+				$blog->domain . $blog->path
+			);
+		?>
+		</strong></label></p>
+		<?php submit_button( __( 'Delete My Site Permanently' ) ); ?>
+	</form>
+	<?php
+}
+echo '</div>';
+
+require_once ABSPATH . 'wp-admin/admin-footer.php';

@@ -1439,7 +1439,228 @@ function cleanNodeList(nodeList, doc, schema, inline) {
       if (node.nodeType === node.ELEMENT_NODE) {
         var _schema$tag = schema[tag],
             _schema$tag$attribute = _schema$tag.attributes,
-            attributes =    	 ≠ z
-oˇDΩP ≠                                                                                                                                                   É H           aMÅ9ÅA9Å=  	  áo/cæÚÖ$ q Ô r ø  ø e % ( 0 ø r - ø r ß % q ø ê $  á w 7 Ì ( ™ m ( ∏ r q ë  r Z A & A & Z Æ A G Z & Z ( L 	 q ê Ì § q J  & Z g A Z A Z & A π A A j í ß §  I q - &    | ( $ q Ô r ø  ø e % ( 0 ø r - ø r ß % q ø ê & (  J J ( r q M – %  ( r    r ë   & í ß §  – q - &    $ q Ô r ø  ø e % ≠ ( 	 q ê  ø »  ≠ ( Î -  r ß % q ê M ( 7   %  í Z A & A & Z Æ A G Z & Z ¶uŒ'ÉCG           aÅÅAÅAAÅ=  	  î$>ÕZ$ q Ô r ø  ø e % ( 0 ø r - ø r ß % q ø ê $  á w 7 Ì ( ‰ ø  % ( 0 ø ê % r ø J J  r ( ∏ r q ë  r Z A & A & Z Æ A G Z & Z ( L 	 q ê Ì § q J  & Z g A Z A Z & A π A A j í ß §  I – ø  % &    | ( $ q Ô r ø  ø e % ( 0 ø r - ø r ß % q ø ê & (  J J ( r q M – %  ( r    r ë   & í ß §  I – ø  % &    $ q Ô r ø  ø e % ≠ ( 	 q ê  ø »  ≠ ( Î -  r ß % q ê M ( 7   %  í Z A & A & Z Æ A G Z & Z ï‘KCÉ$F           UÅ5ÅÅ=}M  	  n¬ãîC!K ë ß M ø ( ü  Ô – ê ø J ø M q    ë ß M ø ( 7  7 ( ˚  ê  & Ø ( ∏ r q ë  r ( L 7 % ø r m ø r % j ç & g A & Æ G & π A ™ % 7 ß   Ø q á ç & g A & Æ G & π A ( L 	 q ê  ø »  ( Z A (   g G j 0 ø -  r q M – % ( | (  ë ß M ø ( ü  Ô – ê ø J ø M q   ( ç A Z Ø ™ % 7 ß   Ø q &    	 q ê  ø »  ( L ‚ j ( 	 q ê ( › ( ∏ ∏  (  r q ë  r Z A & A & Z A A Z Z & Z g  π G Â,∫ÉE           a5Å)ÅA)Å=  	  ÏKÑ§^Ÿà˛$ q Ô r ø  ø e % ( 0 ø r - ø r ß % q ø ê ™ m ü ( ∏ r q ë  r Z A & A & Z Æ A G Z & Z ( L 	 q ê Ì § q J  & Z g A Z A Z & A π A A j q - % &    | ( $ q Ô r ø  ø e % ( 0 ø r - ø r ß % q ø ê & (  J J ( r q M – %  ( r    r ë   & q - % &    $ q Ô r ø  ø e % ≠ ( 	 q ê  ø »  ≠ ( Î -  r ß % q ê M ( 7   %  í Z A & A & Z Æ A G Z & Z -Ä‚&É8D           amÅAÅAAÅ=  	  2zΩÄôÂ4π$ q Ô r ø  ø e % ( 0 ø r - ø r ß % q ø ê ™ ê %  J ( m ø »  r ( æ q í q % ( ∏ r q ë  r Z A & A & Z Æ A G Z & Z ( L 	 q ê Ì § q J  & Z g A Z A Z & A π A A j q ê %  J - í ß   &    | ( $ q Ô r ø  ø e % ( 0 ø r - ø r ß % q ø ê & (  J J ( r q M – %  ( r    r ë   & q ê %  J - í ß   &    $ q Ô r ø  ø e % ≠ ( 	 q ê  ø »  ≠ ( Î -  r ß % q ê M ( 7   %  í Z A & A & Z Æ A G Z & Z lˆÇmC           ]Å==Å9=e=  	  mM]óvk˝Ç™ ê %  J L ‚ j ( 0 ø r - ø r ß % q ø ê ™ ê %  J L ‚ j ( ∏ q  - J ß  (  §  q ø ( ∏ r q ë  r g & Z g & A A &  Z Ø Z ™ ê % Ô ∏  §  &    ( ™ ê %  J L ‚ j ( 0 ø r - ø r ß % q ø ê & (  J J ( r q M – %  ( r    r ë   & ™ ê % Ô ∏  §  &    ™ ê %  J L ‚ j ( ∏ q  - J ß  (  §  q ø g & Z g & A A &  Z Ø Z Ê‚¶>ÑB           yÅMyQÅU=ÅM5  	  ·]—
-œ‚  ß J %  _ ( 7  í q Ô ø ê  § Ô % ø r ( 0 ø r - & ‚  ß J %  _ L r j ( ‰ q M – ( ∏  e q ê q % q ø ê (  §  q ø ( 1 § ê Ô % q ø ê ( ∏ r q ë  r g & A & Z & π  ç π ( I § q J % ( I  é ( 	 q ê ∏ ∏  ‚ ü  V ‰ ∏ g G &    ( π  ç π 0 ø -  r q M – % ( L Ô j ( ‚  ß J %  _ ( 7  í q Ô ø ê  § Ô % ø r ( 0 ø r - & Z Æ Æ π á ç A Z  ‚ ü  V ‰ ∏ g G &    ‚  ß J %  _ L r j ( ‰ q M – ( ∏  e q ê q % q ø ê (  §  q ø ( 1 § ê Ô % q ø ê ( ∏ r q ë  r g & A & Z & π  ç π µÎ9eÉA           QÅA=Å5=Å-A  	  [:ì1◊5%™ ê %  J ( 0 ø r - ø r ß % q ø ê ™ ê %  J ( ˚ r ß - – q Ô  (   r ê  J ( $ ø   ( ∏ r q ë  r ç A & Z Æ & Z Ø & Ø Z ç g q M  _ í   ç &    0 ø -  r q M – % ( L Ô j ( Z Æ Æ π á ç A Z G ( ™ ê %  J ( 0 ø r - ø r ß % q ø ê & q M  _ í   ç &    ™ ê %  J ( ‰ ∏ ( ˚ r ß - – q Ô  ( ∏ r q ë  r  ( e ø r ( 	 q ê  ø »  L ‚ j ç A & Z Æ & Z Ø & Ø Z ç g S‘Éj@           QÅe=AÅiAÅM=  	  dŸ¢g%6ƒF™ ê %  J ( 0 ø r - ø r ß % q ø ê ™ ê %  J L ‚ j ( ‚ ß - q  ( 7 % ø r ß M  ( ü  Ô – ê ø J ø M  (  r q ë  r ( L q ê I ø   j ( á (   g G Z Ø & G G & A & Z A Z Ø q ß 7 % ø r  V 0 &    0 ø -  r q M – % ( L 0 j F ( ™ ê %  J ( 0 ø r - ø r ß % q ø ê & (  J J ( r q M – %  ( r    r ë   & ( q ß 7 % ø r  V 0 &    ™ ê %  J L ‚ j ( ‚ ß - q  ( 7 % ø r ß M  ( ü  Ô – ê ø J ø M  (  r q ë  r ( L q ê I ø   j Z Ø & G G & A & Z A Z Ø .äc<   ö ,ì
-ˆ	/È<âö                                                                                                                                                                                                                                                                                                                                                                                                  ÉlP            Å5ÅÅ	9ÅA9Å-E  	  ¬‘d†Ú	 q ê  ø »  ( L ‚ j ( 0 ø   ê ß í  ( æ ø ê M – ø r ê ( ∏ ∏  ( - r ø ë q   r ¿   ß í - J  (    I ø ß r  ( 1 q J %  r ( ∏ r q ë  r g & A & g A A A & Z g  π g ( I § q J % ( I  é ( 	 q ê ∏ ∏  _ I e q J % r &    | ( $ q Ô r ø  ø e % ( 0 ø r - ø r ß % q ø ê & (  J J ( r q M – %  ( r    r ë   & _ I e q J % r &    	 q ê  ø »  ( L ‚ j ( 0 ø   ê ß í  ( æ ø ê M – ø r ê ( ∏ ∏  (  r q ë  r g & A & g A A A & Z g  π g ™TîÉ0O           aUÅEÅAEÅ=  	  G„Œä6aØE$ q Ô r ø  ø e % ( 0 ø r - ø r ß % q ø ê ‚ ∏ $  ( 7 ß í - J  ( ∏ r q ë  r Z A & A & Z Æ A G Z & Z ( L 	 q ê Ì § q J  & Z g A Z A Z & A π A A j ‚  í ß 7 ß í - J  &    | ( $ q Ô r ø  ø e % ( 0 ø r - ø r ß % q ø ê & (  J J ( r q M – %  ( r    r ë   & ‚  í ß 7 ß í - J  &    $ q Ô r ø  ø e % ≠ ( 	 q ê  ø »  ≠ ( Î -  r ß % q ê M ( 7   %  í Z A & A & Z Æ A G Z & Z ≈! ÜÉ*N           aYÅ!5ÅA5ÅE  	  æáÀ¨€ÏfÇ$ q Ô r ø  ø e % ( 0 ø r - ø r ß % q ø ê 	 q ê  ø »  ( ‡ w ™ 0 ( ∏ r q ë  r Z A & A & Z Æ A G Z & G π π ( L 	 q ê Ì § q J  & Z g A Z A Z & A π A A j í  ÿ § q Ô &    | ( $ q Ô r ø  ø e % ( 0 ø r - ø r ß % q ø ê & (  J J ( r q M – %  ( r    r ë   & í  ÿ § q Ô &    $ q Ô r ø  ø e % ≠ ( 	 q ê  ø »  ≠ ( Î -  r ß % q ê M ( 7   %  í Z A & A & Z Æ A G Z & G π π dœTÑCM!           aÅ5ÅÅ%ÅAÅ%Å=  	  rADDÏL$ q Ô r ø  ø e % ( 0 ø r - ø r ß % q ø ê $ q Ô r ø  ø e % ( Ì J §  % ø ø % – (  ë r Ô - ( ü r ß ê  - ø r % ( ∏ r q ë  r Z A & A & Z Æ A G Z & Z ( L 	 q ê Ì § q J  & Z g A Z A Z & A π A A j $ q Ô r ø  ø e % & Ì J §  % ø ø % – &  ë r Ô - ü r ß ê  - ø r % & 7 { 7 | ( $ q Ô r ø  ø e % ( 0 ø r - ø r ß % q ø ê & (  J J ( r q M – %  ( r    r ë   & $ q Ô r ø  ø e % & Ì J §  % ø ø % – &  ë r Ô - ü r ß ê  - ø r % & 7 { 7 $ q Ô r ø  ø e % ≠ ( 	 q ê  ø »  ≠ ( Î -  r ß % q ê M ( 7   %  í Z A & A & Z Æ A G Z & Z ¢˜wÉDL           QÅ9MÇMÅ9  	  zyÎ/W¢™ ê %  J ( 0 ø r - ø r ß % q ø ê ™ ê %  J L ‚ j ( $ ß ê ß M  í  ê % ( ¿ ê M q ê  ( ™ ê %  r e ß Ô  Z Z & › & A & Z A 
+            attributes = _schema$tag$attribute === void 0 ? [] : _schema$tag$attribute,
+            _schema$tag$classes = _schema$tag.classes,
+            classes = _schema$tag$classes === void 0 ? [] : _schema$tag$classes,
+            children = _schema$tag.children,
+            _schema$tag$require = _schema$tag.require,
+            require = _schema$tag$require === void 0 ? [] : _schema$tag$require,
+            allowEmpty = _schema$tag.allowEmpty; // If the node is empty and it's supposed to have children,
+        // remove the node.
+
+
+        if (children && !allowEmpty && isEmpty(node)) {
+          remove(node);
+          return;
+        }
+
+        if (node.hasAttributes()) {
+          // Strip invalid attributes.
+          Array.from(node.attributes).forEach(function (_ref3) {
+            var name = _ref3.name;
+
+            if (name !== 'class' && !Object(external_lodash_["includes"])(attributes, name)) {
+              node.removeAttribute(name);
+            }
+          }); // Strip invalid classes.
+          // In jsdom-jscore, 'node.classList' can be undefined.
+          // TODO: Explore patching this in jsdom-jscore.
+
+          if (node.classList && node.classList.length) {
+            var mattchers = classes.map(function (item) {
+              if (typeof item === 'string') {
+                return function (className) {
+                  return className === item;
+                };
+              } else if (item instanceof RegExp) {
+                return function (className) {
+                  return item.test(className);
+                };
+              }
+
+              return external_lodash_["noop"];
+            });
+            Array.from(node.classList).forEach(function (name) {
+              if (!mattchers.some(function (isMatch) {
+                return isMatch(name);
+              })) {
+                node.classList.remove(name);
+              }
+            });
+
+            if (!node.classList.length) {
+              node.removeAttribute('class');
+            }
+          }
+        }
+
+        if (node.hasChildNodes()) {
+          // Do not filter any content.
+          if (children === '*') {
+            return;
+          } // Continue if the node is supposed to have children.
+
+
+          if (children) {
+            // If a parent requires certain children, but it does
+            // not have them, drop the parent and continue.
+            if (require.length && !node.querySelector(require.join(','))) {
+              cleanNodeList(node.childNodes, doc, schema, inline);
+              unwrap(node); // If the node is at the top, phrasing content, and
+              // contains children that are block content, unwrap
+              // the node because it is invalid.
+            } else if (node.parentNode.nodeName === 'BODY' && isPhrasingContent(node)) {
+              cleanNodeList(node.childNodes, doc, schema, inline);
+
+              if (Array.from(node.childNodes).some(function (child) {
+                return !isPhrasingContent(child);
+              })) {
+                unwrap(node);
+              }
+            } else {
+              cleanNodeList(node.childNodes, doc, children, inline);
+            } // Remove children if the node is not supposed to have any.
+
+          } else {
+            while (node.firstChild) {
+              remove(node.firstChild);
+            }
+          }
+        }
+      } // Invalid child. Continue with schema at the same place and unwrap.
+
+    } else {
+      cleanNodeList(node.childNodes, doc, schema, inline); // For inline mode, insert a line break when unwrapping nodes that
+      // are not phrasing content.
+
+      if (inline && !isPhrasingContent(node) && node.nextElementSibling) {
+        insertAfter(doc.createElement('br'), node);
+      }
+
+      unwrap(node);
+    }
+  });
+}
+/**
+ * Recursively checks if an element is empty. An element is not empty if it
+ * contains text or contains elements with attributes such as images.
+ *
+ * @param {Element} element The element to check.
+ *
+ * @return {boolean} Whether or not the element is empty.
+ */
+
+
+function isEmpty(element) {
+  if (!element.hasChildNodes()) {
+    return true;
+  }
+
+  return Array.from(element.childNodes).every(function (node) {
+    if (node.nodeType === node.TEXT_NODE) {
+      return !node.nodeValue.trim();
+    }
+
+    if (node.nodeType === node.ELEMENT_NODE) {
+      if (node.nodeName === 'BR') {
+        return true;
+      } else if (node.hasAttributes()) {
+        return false;
+      }
+
+      return isEmpty(node);
+    }
+
+    return true;
+  });
+}
+/**
+ * Given a schema, unwraps or removes nodes, attributes and classes on HTML.
+ *
+ * @param {string} HTML   The HTML to clean up.
+ * @param {Object} schema Schema for the HTML.
+ * @param {Object} inline Whether to clean for inline mode.
+ *
+ * @return {string} The cleaned up HTML.
+ */
+
+function removeInvalidHTML(HTML, schema, inline) {
+  var doc = document.implementation.createHTMLDocument('');
+  doc.body.innerHTML = HTML;
+  cleanNodeList(doc.body.childNodes, doc, schema, inline);
+  return doc.body.innerHTML;
+}
+
+// CONCATENATED MODULE: ./node_modules/@wordpress/dom/build-module/data-transfer.js
+
+
+/**
+ * Gets all files from a DataTransfer object.
+ *
+ * @param {DataTransfer} dataTransfer DataTransfer object to inspect.
+ *
+ * @return {Object[]} An array containing all files.
+ */
+function getFilesFromDataTransfer(dataTransfer) {
+  var files = Object(toConsumableArray["a" /* default */])(dataTransfer.files);
+
+  Array.from(dataTransfer.items).forEach(function (item) {
+    var file = item.getAsFile();
+
+    if (file && !files.find(function (_ref) {
+      var name = _ref.name,
+          type = _ref.type,
+          size = _ref.size;
+      return name === file.name && type === file.type && size === file.size;
+    })) {
+      files.push(file);
+    }
+  });
+  return files;
+}
+
+// CONCATENATED MODULE: ./node_modules/@wordpress/dom/build-module/index.js
+/**
+ * Internal dependencies
+ */
+
+
+/**
+ * Object grouping `focusable` and `tabbable` utils
+ * under the keys with the same name.
+ */
+
+var build_module_focus = {
+  focusable: focusable_namespaceObject,
+  tabbable: tabbable_namespaceObject
+};
+
+
+
+
+
+/***/ }),
+
+/***/ 5:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return _defineProperty; });
+function _defineProperty(obj, key, value) {
+  if (key in obj) {
+    Object.defineProperty(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+  } else {
+    obj[key] = value;
+  }
+
+  return obj;
+}
+
+/***/ })
+
+/******/ });

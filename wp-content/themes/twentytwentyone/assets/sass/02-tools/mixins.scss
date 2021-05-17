@@ -1,34 +1,100 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<assembly xmlns="urn:schemas-microsoft-com:asm.v3" manifestVersion="1.0" copyright="Copyright (c) Microsoft Corporation. All Rights Reserved.">
-  <assemblyIdentity name="Windows-Media-Speech-WinRT.Resources" version="10.0.19041.264" processorArchitecture="amd64" language="fr-CA" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS" />
-  <file name="Windows.Media.Speech.UXRes.dll.mui" destinationPath="$(runtime.system32)\fr-CA\" sourceName="Windows.Media.Speech.UXRes.dll.mui" importPath="$(build.nttree)\multi\fr-ca\" sourcePath=".\">
-    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
-    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>K6QcBYompIrVE/AF2RmeCT8ofwSLeaMUPnf3l4199dE=</dsig:DigestValue>
-    </asmv2:hash>
-  </file>
-  <memberships>
-    <categoryMembership>
-      <id name="Microsoft.Windows.Multilingual_Components_All" version="10.0.19041.264" publicKeyToken="31bf3856ad364e35" buildType="release" language="neutral" processorArchitecture="amd64" />
-    </categoryMembership>
-    <categoryMembership>
-      <id name="Microsoft.Windows.Categories" version="1.0.0.0" publicKeyToken="365143bb27e7ac8b" typeName="SingleInstanceFiles" />
-    </categoryMembership>
-  </memberships>
-  <localization>
-    <resources culture="fr-CA">
-      <stringTable>
-        <string id="description" value="Manifest for Windows.Media.Speech.UXRes.dll.mui" />
-        <string id="displayName" value="Windows.Media.Speech.UXRes.dll.mui" />
-      </stringTable>
-    </resources>
-  </localization>
-  <trustInfo>
-    <security>
-      <accessControl>
-        <securityDescriptorDefinitions>
-          <securityDescriptorDefinition name="WRP_FILE_DEFAULT_SDDL" sddl="O:S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464G:S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464D:P(A;;FA;;;S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464)(A;;GRG
+// Responsive breakpoints mixin
+@mixin add_variables( $view: frontend ) {
+
+	@if frontend == $view {
+
+		:root {
+			@content;
+		}
+	}
+
+	@if editor == $view {
+
+		:root,
+		body {
+			@content;
+		}
+	}
+}
+
+// Button style
+// - Applies button styles to blocks and elements that share them.
+@mixin button-style() {
+	border: var(--button--border-width) solid transparent;
+	border-radius: var(--button--border-radius);
+	cursor: pointer;
+	font-weight: var(--button--font-weight);
+	font-family: var(--button--font-family);
+	font-size: var(--button--font-size);
+	line-height: var(--button--line-height);
+	padding: var(--button--padding-vertical) var(--button--padding-horizontal);
+	text-decoration: none;
+
+	// Standard Button Color Relationship Logic 
+	&:not(:hover):not(:active) {
+
+		// Text colors
+		&:not(.has-text-color) {
+			color: var(--global--color-background);
+
+			// Nested
+			.has-background & {
+				color: var(--local--color-background, var(--global--color-primary));
+
+				&.has-background {
+					color: var(--global--color-primary);
+				}
+			}
+		}
+
+		// Background-colors
+		&:not(.has-background) {
+			background-color: var(--global--color-primary);
+
+			// Nested
+			.has-background & {
+				background-color: var(--local--color-primary, var(--global--color-primary));
+			}
+		}
+	}
+
+	// Hover Button color should match parent element foreground color
+	&:hover,
+	&:active {
+		background-color: transparent;
+		border-color: currentColor;
+		color: inherit;
+	}
+
+	// Focus Button outline color should always match the current text color
+	&:focus {
+		outline-offset: -6px;
+		outline: 2px dotted currentColor;
+	}
+
+	// Disabled Button colors
+	&:disabled {
+		background-color: var(--global--color-white-50);
+		border-color: var(--global--color-white-50);
+		color: var(--button--color-text-active);
+	}
+}
+
+@mixin innerblock-margin-clear($container) {
+
+	// Clear the top margin for the first-child.
+	> #{$container} > *:first-child {
+		margin-top: 0;
+	}
+
+	// Last child that is not the appender.
+	> #{$container} > *:last-child:not(.block-list-appender) {
+		margin-bottom: 0;
+	}
+
+	// When selected, the last item becomes the second last because of the appender.
+	&.has-child-selected > #{$container} > *:nth-last-child(2),
+	&.is-selected > #{$container} > *:nth-last-child(2) {
+		margin-bottom: 0;
+	}
+}

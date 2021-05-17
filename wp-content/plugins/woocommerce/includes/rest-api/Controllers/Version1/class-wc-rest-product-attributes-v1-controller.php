@@ -509,20 +509,122 @@ class WC_REST_Product_Attributes_V1_Controller extends WC_REST_Controller {
 					'description' => __( 'Type of attribute.', 'woocommerce' ),
 					'type'        => 'string',
 					'default'     => 'select',
-					'enum'        => array_keys( wc_gf_-PA30 Îmq“dÖ°^Ğ?Äx 
-•¬#:—Ì{-BİVò<M”  €        S]	Hğ,ªªªªªªªªªªª*ªª*ª¡Û¢ªªªªªªªª¢ª
-¢ ÿ Ğÿ ô?€şà‚ üâÿÿ
-ÉÈÍLQY=şıÇG"–!•ŒLQÙŸıİ½ıßİ—Y•QQ™ıßßßÛÿİ% BÑ¤İCÈÀ0  9‡¥<KC”~İ	Ïü/œ¹)PÆi8±AF'ÈÀÉµ<,‚´²tW–ÃD
-‘.Š8VAXNÕbŠˆ?…<&Ş”$+N)W–îÊrX–îÊÒIAÌ ¦ü0O1ıÄ4xX–eé_i¸”¶–‰+"]q¬‚°œ&&|Qà_å°”¶4\úW–e‰ÀZ€06@˜
-0zšàR’B¥#1L!XüÅÅ½kLÿãšSÀ`pHXH8f×­7BL`Ğ„°€AÀeX €pó(öö¡~[™¬BÃˆzÃˆúKoQ–<…İYnX²òV¦5ƒ	u G0ÛƒB`P}öò>ø¬˜ºÆä!6PR‡2³3µr–‡2äE¨”Q½&zJ4“—E+:K4“£…ÒhğĞŒĞL– x&!!fCöÈ5)2$˜C²³ƒ"–[Tu3ç1-â¾€%î°Ãä7§`Q6øÅò<XšCpH° AN	0 À€ ƒ‡ƒÃÀÁáàp@¬UàpH!Šn5¨ZˆÁF ,;¼Ia°A8¢üh†¶çyA0æ&”hÂ/îy"|(,Å ƒƒâÊ´X7ŠÁ`PäÁ!0À˜o)0€À àŠA1(vpp0(Å pàÁÁZß¹Úä…|:¹‹z	ãğ¶FW‹ÁKuPÛâ²–+ÄÚa®Eë1­%Åÿş`$¢½…îÆÓcÑZ#Ïˆ}Uû¿ğ	Ú4_¿sóËz¼¼=Ô¬ôxvXQ(‰PŒ/Œ78€¤Õ!ŒàK~‘®${AkÀ‡sx	§@ |‚Ö°xVV4S† GuSw SW–»„åa5·öh^k¤ÅVic•4ÔH{ }(ƒMCšX¤µIby¤­±ÄB"i{ E­i[biHRëM%mB’Zš6²=‰å}­Ò´y›6ò%mÔú¦’ôéS{hš“4ibiÓ}¤húâ¡Ñ%©¦((ğØªTÛ§y%âÑµ¯¦§VxB£Ih´(¼ÉI41ô…'DÕnC_xŠê©>º>š¤©j-ºjª©iª
-/Îâ.şà/@è[xTñµ P‚HĞÈ€@ÈBG…“SEOuNñ-ªĞÅÂ‰0ˆêQ|(€ªI 2ˆ•FÍcsƒé£—µÄ<RIÚ„›ô•Fg’Úâpj1h¨Å5´˜Lj±¹Á
-5I¥ù%5µE
-7ú%4òiŒ)›²”)­D#­-ğäk-&c±%ÖÄ¢¤åii,JXo¬5UrÔP—yli|à±Qi¢dB’Q¨ÑY`4L+¦°c˜Ó6˜b*¬€šÔ
-ØŞÆ¦0fKYúÈöXÊÊ¢¶Ædšæµ°Æb‹•Ešl°Ä"Ëb£¶4’F²æÔ’&§,¬ÍÑ¤¬=M{ÖÓ¤XÙ-eoN-iÙ-²l[ûH¬,·µÛcÆÛ”a;6@¦¶cò,aØ	šB ä#P„ Ê	*©DOFÑztÔ¥Q”ÊíKk§7ÚŞÖRi{O­&K[ƒ¾RUÕöö‘*¹©è{nQXQQÁM%4ÑÃÎè£Ï£€DDæ˜Ê(\B\8ÀpÌñÀalÂm‚åÒ¡2-Ğ1¢—‹Ì°‚‡ˆé}0Lä0–¯NùÃ#‹ÅĞŒ §ÏîèTÿ¡;P‹ÔoÆ»¥rşOI † Ä&2àY¢„iØ¿!’¥Ô S`l1ø ÕÌÇÃ	œ¤ä`ŞTƒòâ×°FÃõî¡ÈŒ FD¸ıP™ ~†ËèPeK2ã°¸ÈINÙÌ%¹%hæ´Ì'Ñy”ä$‹Ar‘4/]*Gû³(¨”ñÃÌ„„ÊÅşØb«©ıº]Õí²s÷â»ïÁÅÇbŞã§Ï(-Ø?Z\úÒ—¾ô¥C8*^E‹¦ÑÑ2¤=~vuÿ	cÿ®ÛÕ=yúütïªõ°Á?}ŞDbTµ»Üd]ŒÍbø—Y9§ö ö¼°ÿD®©‰–“ç·13xUX,wãy(çX›(6Ê[Å‹óŠuî—ãÛ¼ßTûNf©§÷ùTÅ¥J\k\vïİğ¸æbC¾Uò«ÚÕ<}öü–ÎÁ½f]…Çn-£ã»øé@b”H d&W#¨ª Õ¸ìRœ)a:Ğ(Hø{ :è;ÆNT$Úè`êåÌÊq…ıçÛD7!ñà­J’â2f„ä¾“b)'«Nd×Œa!ùeåü¥ëÃwÆºÍÀ/oúìùmfF_óbõ³u»ÿ˜rªgQe9y~Á:ˆ¨â,qdÀšfY…˜	°âov‹•	ÚD´HÔ‚	P–ğWb²«{C­ãr€Ü®¼7|ôä6
-ºÍ.áE‰İ¹ûÅ‹£OXÀ—¡¶¨—Ñ¨ÆQÁ®RU´MÓ§#E×£§8z}%–³ç·8}í;wïİpõÃGŸ<}öü—:­}çî½û…²'²‡?yúìù- íÚwîŞ»ÿàê‡?yúìù-ví;wïİö‰ê9ÍÉU‰İÅ°×ÂHñU?yşˆÛ16ÍÍOk3]·ïÜ»õ-L”¸æGÇj»u_£c« 0ŒRVñ4°«
-,åAìMû—U8Ôl£Ç·y)Ë?¹Ã»ê&OŸßÇ±ÆŞÃÉèëğ1x“;8×x]àTİôùU¸ìz‰64WÅËn5æ[Ç]ıèÉà)ÈO™â^Çe7¾Q@ğMİÂÓtx™ãhñ®1>f!>aç__CÊîı«@T?‹²O¥”€:$°f }9¿WxP*Ø³G R"¨é êîı'Ï_%Èè=~z‡‚Ğoı«Ÿ_Eˆy´î£'OŸß't7||UR‡ëŠ65z·Àb01µèùÕÄB\+Á½ìƒ­Ú
-ÃşÀ^ä}é¢º£}´~9¸úá£ÇO>+<(*<ûÎ]…ÇDù–“§Ïß"µNkß¹{ïşƒ«>zü¤€óDöüøwí;wïİpõÃG«'²§Ïß"m×¾s÷ŞıW?|ôøÉÓgÏo‘¾kßyğèñ“gÏiNÔqÏß"ÃÉ¬YFï>†P’m”²aİ:ÅÑGË¦­ --[°¶Ào §âš½ĞÄz@€ª„«j9»K¡`ƒ¢¸ján*€¶˜‘áÙ²ÿàê‡?yúìù-xk±öûW?|LíğUÉ¸*ã—ã[…'Z‹‰)ÇÏn3í‹(:=ÚyÏßb¶ëÜ½›¹ÙøÔÁ\ôü ŞğÑã'OŸßB ›ŞaaôMï ê€6İz÷\ığñã»%¹«BP·Î½û4°xûh—Êé-„ª­
-áªëÜ»5DDÁ_…èYe»÷î‹@b7~úé\5·³Ñ±«Úóì«ÜYemNµØôÙUè˜vƒGO¯ ‡Ã;T‚6\iEĞ·„“wæÀBø<#Qaš¸M5ôAy@Ì`<~rèLd¥ÅuºÏx@M RÅÏ‰F@ÒÅXÍâ‚N®féAì,XwÉ$N•BahÆ­§²„f¥ê9¯†ÿÉ9X‰Kå…²Ö
-E\8T)ÏÔÕ2eE‰ËÁFK’ãôH€¡ u¨‚jãÖğnÄ58QÔ"©çÜplÑÒZ!z&(i¹ë‰mˆA‹¥¨”µXè‰l¶§UëIh¼¨Å-CTµÒz¸PÓS$êb®EÃÚ£67ÅŸ·Fh#©1CS‹´CÃ²áßHhä4ÆhiÙêqh„7R# ˆGzÎ-nÄ42Ü@ÕJé97~M@#¶å	ÚbTìâFd#±IùcØâÎÆÅ,
-m–#"¹€C >±âÇø³•$z yMğ’å"`šO’>ÉJfŠ”ÌTJfŠœÌTZfêÉL9ÈL9ÊLÑ¢FÆ²ÙHò¡?ä&K"5OÖcÉd=V(ë±$³™æ”ËÓ‰S._WQ&,¶ã>òSúĞ:;rÇ%®¡	ïà§i†–³q8xNğœ2ä9…z2˜°õ£ÃI}:añ·ùOÀ’jÅ”àq›à) Ÿ/J¬Ë(ŠÑD:©½&YôáÂ4p±ãÌ•pƒÉqş78­„ 4ƒH ™É‹X2ÅiàšùoQ+Ã
-<3]!¤vØ<ä‘Œ”%„Hä<Ôˆ3–=´ Ø2»ñ g…=+˜w5òA¤ /%N ‰Ékø?š’—áD*j
+					'enum'        => array_keys( wc_get_attribute_types() ),
+					'context'     => array( 'view', 'edit' ),
+				),
+				'order_by'     => array(
+					'description' => __( 'Default sort order.', 'woocommerce' ),
+					'type'        => 'string',
+					'default'     => 'menu_order',
+					'enum'        => array( 'menu_order', 'name', 'name_num', 'id' ),
+					'context'     => array( 'view', 'edit' ),
+				),
+				'has_archives' => array(
+					'description' => __( 'Enable/Disable attribute archives.', 'woocommerce' ),
+					'type'        => 'boolean',
+					'default'     => false,
+					'context'     => array( 'view', 'edit' ),
+				),
+			),
+		);
+
+		return $this->add_additional_fields_schema( $schema );
+	}
+
+	/**
+	 * Get the query params for collections
+	 *
+	 * @return array
+	 */
+	public function get_collection_params() {
+		$params            = array();
+		$params['context'] = $this->get_context_param( array( 'default' => 'view' ) );
+
+		return $params;
+	}
+
+	/**
+	 * Get attribute name.
+	 *
+	 * @param WP_REST_Request $request Full details about the request.
+	 * @return string
+	 */
+	protected function get_taxonomy( $request ) {
+		$attribute_id = $request['id'];
+
+		if ( empty( $attribute_id ) ) {
+			return '';
+		}
+
+		if ( isset( $this->taxonomies_by_id[ $attribute_id ] ) ) {
+			return $this->taxonomies_by_id[ $attribute_id ];
+		}
+
+		$taxonomy = WC()->call_function( 'wc_attribute_taxonomy_name_by_id', (int) $request['id'] );
+		if ( ! empty( $taxonomy ) ) {
+			$this->taxonomies_by_id[ $attribute_id ] = $taxonomy;
+		}
+
+		return $taxonomy;
+	}
+
+	/**
+	 * Get attribute data.
+	 *
+	 * @param int $id Attribute ID.
+	 * @return stdClass|WP_Error
+	 */
+	protected function get_attribute( $id ) {
+		global $wpdb;
+
+		$attribute = $wpdb->get_row(
+			$wpdb->prepare(
+				"
+			SELECT *
+			FROM {$wpdb->prefix}woocommerce_attribute_taxonomies
+			WHERE attribute_id = %d
+		 ",
+				$id
+			)
+		);
+
+		if ( is_wp_error( $attribute ) || is_null( $attribute ) ) {
+			return new WP_Error( 'woocommerce_rest_attribute_invalid', __( 'Resource does not exist.', 'woocommerce' ), array( 'status' => 404 ) );
+		}
+
+		return $attribute;
+	}
+
+	/**
+	 * Validate attribute slug.
+	 *
+	 * @deprecated 3.2.0
+	 * @param string $slug The slug to validate.
+	 * @param bool   $new_data If we are creating new data.
+	 * @return bool|WP_Error
+	 */
+	protected function validate_attribute_slug( $slug, $new_data = true ) {
+		if ( strlen( $slug ) >= 28 ) {
+			/* translators: %s: slug being validated */
+			return new WP_Error( 'woocommerce_rest_invalid_product_attribute_slug_too_long', sprintf( __( 'Slug "%s" is too long (28 characters max). Shorten it, please.', 'woocommerce' ), $slug ), array( 'status' => 400 ) );
+		} elseif ( wc_check_if_attribute_name_is_reserved( $slug ) ) {
+			/* translators: %s: slug being validated */
+			return new WP_Error( 'woocommerce_rest_invalid_product_attribute_slug_reserved_name', sprintf( __( 'Slug "%s" is not allowed because it is a reserved term. Change it, please.', 'woocommerce' ), $slug ), array( 'status' => 400 ) );
+		} elseif ( $new_data && taxonomy_exists( wc_attribute_taxonomy_name( $slug ) ) ) {
+			/* translators: %s: slug being validated */
+			return new WP_Error( 'woocommerce_rest_invalid_product_attribute_slug_already_exists', sprintf( __( 'Slug "%s" is already in use. Change it, please.', 'woocommerce' ), $slug ), array( 'status' => 400 ) );
+		}
+
+		return true;
+	}
+
+	/**
+	 * Schedule to flush rewrite rules.
+	 *
+	 * @deprecated 3.2.0
+	 * @since 3.0.0
+	 */
+	protected function flush_rewrite_rules() {
+		wp_schedule_single_event( time(), 'woocommerce_flush_rewrite_rules' );
+	}
+}
