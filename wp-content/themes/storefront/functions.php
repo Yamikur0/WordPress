@@ -65,6 +65,12 @@ if ( version_compare( get_bloginfo( 'version' ), '4.7.3', '>=' ) && ( is_admin()
 	require 'inc/nux/class-storefront-nux-starter-content.php';
 }
 
+add_action( 'woocommerce_after_shop_loop_item', 'phone_show_stock_shop', 10 );
+function phone_show_stock_shop() {
+   global $product;
+   echo wc_get_stock_html( $product );
+}
+
 /**
  * Note: Do not add any custom code here. Please use a custom plugin so that your customizations aren't lost during updates.
  * https://github.com/woocommerce/theme-customisations
